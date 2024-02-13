@@ -29,12 +29,12 @@ npm install
 ```
 
 ```bash
-cd fronend
+cd frontend
 npm install
 ```
 
 3. Set Environment Variables:
-Create a .env file in the root directory and provide your OpenWeatherMap API key. For example:
+Create a .env file in the backend directory and provide your OpenWeatherMap API key. For example:
 ```makefile
 PORT=4000
 
@@ -42,7 +42,7 @@ API_KEY='[KEY]'
 
 API_HOST='[HOST]'
 ```
-4. Start the Development Server:
+4. Start the Development Servers:
 ```terminal
 cd backend
 npm run dev
