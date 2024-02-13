@@ -21,4 +21,4 @@ weatherRoute.get("/:lon/:lan", (req, res) => {
   res.send(`The weather at ${lon}, ${lan} is 25 degrees`);
 });
 
-export default weatherRoute;
+export default weatherRoute
