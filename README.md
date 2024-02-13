@@ -24,7 +24,12 @@ This project is a simple web application that displays the weather based on the 
 
 2. Install Dependencies:
 ```bash
-cd weather-webapp
+cd backend
+npm install
+```
+
+```bash
+cd fronend
 npm install
 ```
 
@@ -39,7 +44,13 @@ API_HOST='[HOST]'
 ```
 4. Start the Development Server:
 ```terminal
+cd backend
 npm run dev
 ```
+```terminal
+cd frontend
+npm start
+```
+
 5. View the WebApp:
 Open your web browser and navigate to http://localhost:4000 to view the Weather WebApp.
