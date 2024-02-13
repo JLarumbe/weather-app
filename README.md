@@ -18,3 +18,28 @@ This project is a simple web application that displays the weather based on the 
 - CSS: Stylesheet language for styling the HTML elements.
 - JavaScript: Programming language for implementing interactive features.
 - React.js: JavaScript library for building user interfaces.
+
+# Getting Started
+1. Clone the Repository: Clone this repository to your local machine using `git clone`.
+
+2. Install Dependencies:
+```bash
+cd weather-webapp
+npm install
+```
+
+3. Set Environment Variables:
+Create a .env file in the root directory and provide your OpenWeatherMap API key. For example:
+```makefile
+PORT=4000
+
+API_KEY='[KEY]'
+
+API_HOST='[HOST]'
+```
+4. Start the Development Server:
+```terminal
+npm run dev
+```
+5. View the WebApp:
+Open your web browser and navigate to http://localhost:4000 to view the Weather WebApp.
