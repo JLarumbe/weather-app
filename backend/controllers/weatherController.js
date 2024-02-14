@@ -51,8 +51,24 @@ const getWeatherByLonLat = async (req, res) => {
   }
 };
 
-const getFiveDayForecastByCity = async (req, res) => {
-  const { city } = req.params;
+const getFiveDayForecastByLatLon = async (req, res) => {
+  const { lat, lon } = req.params;
+
+  const options = {
+    method: "GET",
+    url: `https://open-weather13.p.rapidapi.com/city/fivedaysforcast/${lat}/${lon}`,
+    headers: {
+      "X-RapidAPI-Key": process.env.API_KEY,
+      "X-RapidAPI-Host": process.env.API_HOST,
+    },
+  };
+
+  try {
+    const response = await axios.request(options);
+    res.send(response.data);
+  } catch (error) {
+    console.error(error);
+  }
 };
 
-export { getWeatherByCity, getWeatherByLonLat };
+export { getWeatherByCity, getWeatherByLonLat, getFiveDayForecastByLatLon };
