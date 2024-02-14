@@ -51,6 +51,7 @@ const getWeatherByLonLat = async (req, res) => {
   }
 };
 
+// Get the five day forecast for a latitude and longitude
 const getFiveDayForecastByLatLon = async (req, res) => {
   const { lat, lon } = req.params;
 
