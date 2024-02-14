@@ -13,8 +13,8 @@ const getWeatherByCity = async (req, res) => {
     method: "GET",
     url: `https://open-weather13.p.rapidapi.com/city/${city}`,
     headers: {
-      "X-RapidAPI-Key": process.env.API_KEY,
-      "X-RapidAPI-Host": process.env.API_HOST,
+      "X-RapidAPI-Key": process.env.RAPID_API_KEY,
+      "X-RapidAPI-Host": process.env.WEATHER_API_HOST,
     },
   };
 
@@ -38,8 +38,8 @@ const getWeatherByLonLat = async (req, res) => {
     method: "GET",
     url: `https://open-weather13.p.rapidapi.com/city/latlon/${lon}/${lat}`,
     headers: {
-      "X-RapidAPI-Key": process.env.API_KEY,
-      "X-RapidAPI-Host": process.env.API_HOST,
+      "X-RapidAPI-Key": process.env.RAPID_API_KEY,
+      "X-RapidAPI-Host": process.env.WEATHER_API_HOST,
     },
   };
 
@@ -59,8 +59,8 @@ const getFiveDayForecastByLatLon = async (req, res) => {
     method: "GET",
     url: `https://open-weather13.p.rapidapi.com/city/fivedaysforcast/${lat}/${lon}`,
     headers: {
-      "X-RapidAPI-Key": process.env.API_KEY,
-      "X-RapidAPI-Host": process.env.API_HOST,
+      "X-RapidAPI-Key": process.env.RAPID_API_KEY,
+      "X-RapidAPI-Host": process.env.WEATHER_API_HOST,
     },
   };
 

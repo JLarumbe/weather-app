@@ -2,8 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import WeatherCard from "./components/WeatherCard.js";
 
 function App() {
-  const [] = useState("");
-
   return (
     <div
       className="App"
