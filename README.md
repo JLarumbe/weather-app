@@ -1,5 +1,5 @@
 # Weather WebApp
-This project is a simple web application that displays the weather based on the city the user inputs. It utilizes Node.js with Express for the backend and HTML, CSS, JavaScript, and Reactjs for the frontend. The OpenWeatherMap API is used to fetch weather data.
+This project is a simple web application that displays the weather based on the city the user inputs. It utilizes Node.js with Express for the backend and HTML, CSS, JavaScript, and Reactjs for the frontend. The `OpenWeatherMap API` is used via [Rapid API](https://rapidapi.com/worldapi/api/open-weather13/) to fetch weather data.
 
 # Features
 - Weather Display: Users can input a city name, and the web application will retrieve and display the current weather information for that city.
@@ -23,12 +23,12 @@ This project is a simple web application that displays the weather based on the 
 1. Clone the Repository: Clone this repository to your local machine using `git clone`.
 
 2. Install Dependencies:
-```bash
+```terminal
 cd backend
 npm install
 ```
 
-```bash
+```terminal
 cd frontend
 npm install
 ```
