@@ -1,11 +1,11 @@
 import express from "express";
+
+// Load environment variables from .env file
 import dotenv from "dotenv";
+dotenv.config();
 
 // Import the weatherRoute from the weather.js file
 import weatherRoute from "./routes/weather.js";
-
-// Load environment variables from .env file
-dotenv.config();
 
 // Create an express app
 const app = express();
