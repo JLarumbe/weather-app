@@ -12,12 +12,13 @@ This project is a simple web application that displays the weather based on the 
 - Express: Web framework for building the RESTful API and handling routes.
 - Axios: Promise-based HTTP client for making requests to external APIs.
 - Nodemon: Development dependency for automatically restarting the server during development.
-- dotenv: Dependency for loading environment variables from a .env file.
+- Dotenv: Dependency for loading environment variables from a .env file.
 ## Frontend
 - HTML: Markup language for structuring the web pages.
 - CSS: Stylesheet language for styling the HTML elements.
 - JavaScript: Programming language for implementing interactive features.
 - React.js: JavaScript library for building user interfaces.
+- BootStrap: Front-end development framework for the creation of responsive websites.
 
 # Getting Started
 1. Clone the Repository: Clone this repository to your local machine using `git clone`.
@@ -53,4 +54,13 @@ npm start
 ```
 
 5. View the WebApp:
-Open your web browser and navigate to http://localhost:4000 to view the Weather WebApp.
+Open your web browser and navigate to http://localhost:3000 to view the Weather WebApp.
+
+# Screenshots
+Displays weather infornation in Fahrenheit 
+<img width="958" alt="farneheit" src="https://github.com/JLarumbe/weather-app/assets/29000793/1bc66130-a9de-4714-85ab-15bb090cee07">
+
+Displays weather infornation in Celsius
+<img width="959" alt="celsius" src="https://github.com/JLarumbe/weather-app/assets/29000793/42b77271-b8a3-46c7-9c95-7f2ce74525bb">
+
+
