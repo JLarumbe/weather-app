@@ -18,7 +18,7 @@ This project is a simple web application that displays the weather based on the 
 - CSS: Stylesheet language for styling the HTML elements.
 - JavaScript: Programming language for implementing interactive features.
 - React.js: JavaScript library for building user interfaces.
-- BootStrap: Front-end development framework for the creation of responsive websites.
+- Bootstrap: Front-end development framework for the creation of responsive websites.
 
 # Getting Started
 1. Clone the Repository: Clone this repository to your local machine using `git clone`.
@@ -57,10 +57,10 @@ npm start
 Open your web browser and navigate to http://localhost:3000 to view the Weather WebApp.
 
 # Screenshots
-Displays weather infornation in Fahrenheit 
+Displays weather information in Fahrenheit 
 <img width="958" alt="farneheit" src="https://github.com/JLarumbe/weather-app/assets/29000793/1bc66130-a9de-4714-85ab-15bb090cee07">
 
-Displays weather infornation in Celsius
+Displays weather information in Celsius
 <img width="959" alt="celsius" src="https://github.com/JLarumbe/weather-app/assets/29000793/42b77271-b8a3-46c7-9c95-7f2ce74525bb">
 
 
