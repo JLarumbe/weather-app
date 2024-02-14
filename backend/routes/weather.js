@@ -11,6 +11,6 @@ const weatherRoute = express.Router();
 weatherRoute.get("/:city", getWeatherByCity);
 
 // GET request using longitude and latitude to localhost:4000/weather/[lon]/[lan]
-weatherRoute.get("/:lon/:lan", getWeatherByLonLat);
+weatherRoute.get("/:lon/:lat", getWeatherByLonLat);
 
 export default weatherRoute;

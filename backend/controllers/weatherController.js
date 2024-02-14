@@ -38,8 +38,8 @@ const getWeatherByLonLat = async (req, res) => {
     method: "GET",
     url: `https://open-weather13.p.rapidapi.com/city/latlon/${lon}/${lat}`,
     headers: {
-      "X-RapidAPI-Key": "5b038c2ea5msha840abea9707284p163721jsnca2de98cbef7",
-      "X-RapidAPI-Host": "open-weather13.p.rapidapi.com",
+      "X-RapidAPI-Key": process.env.API_KEY,
+      "X-RapidAPI-Host": process.env.API_HOST,
     },
   };
 
@@ -49,6 +49,10 @@ const getWeatherByLonLat = async (req, res) => {
   } catch (error) {
     console.error(error);
   }
+};
+
+const getFiveDayForecastByCity = async (req, res) => {
+  const { city } = req.params;
 };
 
 export { getWeatherByCity, getWeatherByLonLat };
